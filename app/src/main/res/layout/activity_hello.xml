@@ -19,37 +19,34 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="109dp"
         android:text="@string/user_name"
         android:textColor="@android:color/black"
-        android:textColorHighlight="@android:color/black"
-        android:textColorHint="@android:color/black"
-        android:textColorLink="@android:color/background_dark"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_toEndOf="@+id/textView2" />
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginStart="15dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/editText2"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="56dp"
         android:text="@string/password"
         android:textColor="@android:color/black"
-        android:textColorHighlight="@android:color/black"
-        android:textColorHint="@android:color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignEnd="@+id/textView2" />
 
     <EditText
         android:id="@+id/editText4"
@@ -59,9 +56,10 @@
         android:inputType="numberPassword"
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
-        android:layout_toEndOf="@+id/textView2" />
+        android:layout_alignStart="@+id/editText2" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="58dp"
@@ -70,5 +68,18 @@
         android:textColor="@android:color/black"
         android:layout_below="@+id/editText4"
         android:layout_alignEnd="@+id/editText4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="32dp"
+
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_horizontal"
+        android:textSize="30sp" />
 
 </RelativeLayout>

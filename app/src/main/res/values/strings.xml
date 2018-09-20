@@ -3,4 +3,10 @@
     <string name="user_name">username:</string>
     <string name="password">password:</string>
     <string name="btn_name">login</string>
+    <string name="team_label">Team A</string>
+    <string name="scorea">0</string>
+    <string name="btn_label1">+1 point</string>
+    <string name="btn_label2">+2 points</string>
+    <string name="btn_label3">+3points</string>
+    <string name="btn_reset_label">reset</string>
 </resources>
